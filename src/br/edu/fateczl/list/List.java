@@ -54,7 +54,7 @@ public class List<T> {
 		
 		int size = size();
 		
-		if(position < 0 || position > size - 1) 
+		if(position < 0) 
 			throw new Exception("Invalid position");
 		
 		if(position == 0) {
